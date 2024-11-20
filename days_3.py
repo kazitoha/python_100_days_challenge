@@ -1,4 +1,3 @@
-
 # day3
 
 
@@ -21,23 +20,23 @@ print('''            ____...------------...____
 
 print('Welcome to this Treasure Island')
 print('your mission is find a treasure island and you are at your goal.')
-start_or_not= input('start the game ? (y or n)\n')
+start_or_not = input('start the game ? (y or n)\n')
 if start_or_not.lower() == 'y':
 
-    left_or_write=input("Insert left or right? (l or r)\n")
+    left_or_write = input("Insert left or right? (l or r)\n")
 
-    if left_or_write=='l':
-        swim_or_wait=input('swim or wait ? (s or w) \n')
-        if swim_or_wait.lower()=='s':
+    if left_or_write == 'l':
+        swim_or_wait = input('swim or wait ? (s or w) \n')
+        if swim_or_wait.lower() == 's':
             print('You lose!')
-        elif swim_or_wait.lower()=='w':
-            which_door=input('Which door red or blue? (r or b)\n)')
-            if which_door.lower()=='r':
+        elif swim_or_wait.lower() == 'w':
+            which_door = input('Which door red or blue? (r or b)\n)')
+            if which_door.lower() == 'r':
                 print('You lose!')
-            elif which_door.lower()=='b':
+            elif which_door.lower() == 'b':
                 print('''You win!
-                
-                
+
+
                             _.--.
                         _.-'_:-'||
                     _.-'_.-::::'||
@@ -57,14 +56,14 @@ if start_or_not.lower() == 'y':
                |'-._   || |'|_.-'_.-'
             jgs '-._'-.|| |' `_.-'
                     '-.||_/.-'
-                
-                
+
+
                 ''')
             else:
                 print('invalid input!')
         else:
             print('invalid input!')
-    elif left_or_write=='r':
+    elif left_or_write == 'r':
         print("Game Over")
     else:
         print('invalid input!')
@@ -114,8 +113,6 @@ else:
 #
 
 
-
-
 # weight = 85
 # height = 1.85
 #
@@ -142,18 +139,4 @@ else:
 #     print("You can ride rollercoster")
 # else:
 #     print("You can't ride rollercoster")
-
-
-# days 2
-
-# total_bill=int(input("Enter your total bill\n"))
-# total_tip_persentage=int(input("Enter tipp percentage\n"))
-# how_many=int(input('How many pepole with you\n'))
-#
-# total_amount_per_person=(((total_bill/100) * total_tip_persentage ) + total_bill)/how_many
-# # get_pasentage_of_tipp= total_bill/100 * total_tip_persentage
-# # bill_with_tipp =total_bill + get_pasentage_of_tipp
-# # final_bill=bill_with_tipp/how_many
-# round_it=round(total_amount_per_person,2)
-# print(f"Total bill per person {round_it}")
 
